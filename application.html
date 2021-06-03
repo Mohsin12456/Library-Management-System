@@ -1,0 +1,101 @@
+<form method="get" enctype="application/x-www-form-urlencoded">
+<form action="/action_page.php">
+
+<h1>Libarary Management System</h1>
+<p>
+<label>First Name
+<input type="text" name="customer_name" required>
+<label>Last Name
+<input type="text" name="customer_name" required>
+</label>
+</label> 
+</p>
+
+<p>
+<label>Phone 
+<input type="tel" name="phone_number" required>
+</label>
+</p>
+
+<p>
+<label>Email 
+<input type="email" name="email_address" required>
+<label>ID Card # 
+<input type="text" name="card_number" required>
+</label>
+</label>
+</p>
+
+<fieldset>
+<legend>Which book do you want?</legend>
+<p><label> <input type="radio" name="book" required value="islamyat"> islamyat </label></p>
+<p><label> <input type="radio" name="book" required value="urdu"> urdu </label></p>
+<p><label> <input type="radio" name="book" required value="english"> english </label></p>
+<p><label> <input type="radio" name="book" required value="biology"> biology </label></p>
+<p><label> <input type="radio" name="book" required value="chemistry"> chemistry </label></p>
+<p><label> <input type="radio" name="book" required value="physics"> physics </label></p>
+<p><label> <input type="radio" name="book" required value="mathematics"> mathematics </label></p>
+</fieldset>
+
+<fieldset>
+<legend>writters</legend>
+<p><label> <input type="checkbox" name="writters" required>  </label></p>
+<p><label> <input type="checkbox" name="writters" required> Ali Raza </label></p>
+<p><label> <input type="checkbox" name="writters" required> Ali Hassan </label></p>
+<p><label> <input type="checkbox" name="writters" required> Junaid </label></p>
+<p><label> <input type="checkbox" name="writters" required> Ghulam Murtaza </label></p>
+<p><label> <input type="checkbox" name="writters" required> Zohaib </label></p>
+<p><label> <input type="checkbox" name="writters" required> Mohsin Ijaz </label></p>
+</fieldset>
+
+<fieldset>
+<legend>Class</legend>
+<p><label> <input type="checkbox" name="Class" required> 9th </label></p>
+<p><label> <input type="checkbox" name="Class" required> 10th </label></p>
+<p><label> <input type="checkbox" name="Class" required> 11th </label></p>
+<p><label> <input type="checkbox" name="Class" required> 12th </label></p>
+<p><label> <input type="checkbox" name="Class" required> BA </label></p>
+<p><label> <input type="checkbox" name="Class" required> MA </label></p>
+<p><label> <input type="checkbox" name="Class" required> MPhil </label></p>
+</fieldset>
+
+<p>
+<label>Reserve Date/Time
+<input type="datetime-local" name="Reserve_time" required>
+</label>
+</p>
+	
+<p>
+<label>Reserve site
+<select id="reserve_site" name="reserve_site">
+<option value="" selected="selected">Select One</option>
+<option value="internet" >Internet</option>
+<option value="Online web page" >Online web page</option>
+<option value="Office" >Office</option>
+</select>
+</label> 
+</p>
+
+<p>
+<label>Address
+<input type="text" name="address" required list="destinations">
+</label>
+
+<datalist id="destinations">
+<option value="Sialkot">
+<option value="Lahore">
+<option value="Daska">
+<option value="Islamabad">
+</datalist>
+</p>
+
+<p>
+<label>Special Instructions
+<textarea name="comments" maxlength="500"></textarea>
+</label>
+</p>
+	<button><a href="home.html">home</a></button>
+
+<p><button>Submit</button></p>
+
+</form>
